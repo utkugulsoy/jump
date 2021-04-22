@@ -6,8 +6,7 @@ public class MainCharacterController : MonoBehaviour
 {
     
     Rigidbody rb;
-    public Vector3 jump;
-    public float jumpForce = 2.0f;
+    
     public bool isGrounded;
     Vector3 v;
     
@@ -46,11 +45,7 @@ public class MainCharacterController : MonoBehaviour
     private void Update()
     {
 
-       /* if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(jump * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
-        }*/
+     
 
 
 
